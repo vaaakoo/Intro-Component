@@ -14,14 +14,15 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 
-<body class="font-body min-h-screen bg-desktop md:bg-no-repeat md:bg-cover md:bg-desktop md:py-5">
+<body class="font-body bg-desktop md:bg-no-repeat md:bg-cover md:bg-desktop md:py-8">
 
   <!-- ============ Main Container =================== -->
   <main
-    class="mt-[20px] mb-20 min-h-screen px-6 md:my-0 md:mx-auto md:flex md:max-w-6xl md:items-center md:justify-center md:gap-x-16">
+    class="mt-[20px] mb-20 px-6 md:my-0 md:mx-auto md:flex md:max-w-6xl md:items-center md:justify-center md:place-items-center md:gap-x-16">
     <!-- ============ Title Text      ================== -->
     <div class="md:w-1/2 flex flex-col gap-5 mb-8">
-      <h1 class="text-center text-3xl font-semibold leading-9 text-white md:text-left md:text-5xl md:leading-none">
+      <h1
+        class="text-center text-3xl font-semibold leading-9 dark:text-yellow-100 text-white md:text-left md:text-5xl md:leading-none">
         Learn to code by watching others
       </h1>
       <p class="hidden md:block px-2 italic text-center leading-[1.6rem] text-white md:text-left">
@@ -30,13 +31,13 @@
       </p>
     </div>
 
-    <div class="md:w-1/2">
+    <div class="md:w-1/2 flex flex-col gap-4">
       <!-- ========== Try it Free Card ================== -->
       <div
-        class="shadowDiv rounded-lg bg-white dark:bg-Blue py-4 px-4 place-items-center flex flex-row justify-between">
+        class="shadowDiv rounded-lg bg-[#ffffff] dark:bg-[#7e22ce] px-4 py-3 place-items-center flex flex-row justify-between">
         <div>
           <p class="text-center  font-normal leading-7 text-GrayishBlue">
-          <p class="font-semibold text-lg text-blue-600 dark:text-white"> Try it free 7 days </p>
+          <p class="font-semibold text-lg text-blue-600 dark:text-yellow-100"> Try it free 7 days </p>
           <span class="font-extralight text-base text-gray-400 md:block hidden">then $20/mo. thereafter</span>
           </p>
         </div>
@@ -53,7 +54,7 @@
       </div>
 
       <!-- ========== Form Card ====================== -->
-      <div class="shadowDiv relative my-7 rounded-lg bg-white dark:bg-Blue p-6 transition-all md:p-10">
+      <div class="shadowDiv relative rounded-lg bg-white dark:bg-Blue p-6 transition-all md:p-10">
         <form action="#">
           <img src="./images/icon-error.svg" class="absolute right-16 my-4 hidden" alt="" />
           <input type="text"
