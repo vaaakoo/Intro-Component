@@ -9,8 +9,9 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [DarkMode](#darkmode)
   - [Links](#links)
-
+ 
 
 ## Overview
 
@@ -29,7 +30,7 @@ Users should be able to:
 ![Desktop](./completedDesigns/desktop-main.png)
 ![Mobile](./completedDesigns/mobile-main.png)
 
-### Dark-Mode
+### DarkMode
 
 ![gif](./completedDesigns/Peek%202022-11-26%2002-07.gif)
 
