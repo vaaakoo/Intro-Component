@@ -10,8 +10,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
-- [Author](#author)
+
 
 ## Overview
 
