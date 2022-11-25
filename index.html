@@ -32,11 +32,12 @@
 
     <div class="md:w-1/2">
       <!-- ========== Try it Free Card ================== -->
-      <div class="shadowDiv rounded-lg bg-Blue py-4 px-4 place-items-center flex flex-row justify-between">
+      <div
+        class="shadowDiv rounded-lg bg-white dark:bg-Blue py-4 px-4 place-items-center flex flex-row justify-between">
         <div>
-          <p class="text-center text-base font-normal leading-7 text-GrayishBlue">
-          <p class="font-semibold text-white"> Try it free 7 days </p>
-          <span class="font-extralight text-gray-400 md:block hidden">then $20/mo. thereafter</span>
+          <p class="text-center  font-normal leading-7 text-GrayishBlue">
+          <p class="font-semibold text-lg text-blue-600 dark:text-white"> Try it free 7 days </p>
+          <span class="font-extralight text-base text-gray-400 md:block hidden">then $20/mo. thereafter</span>
           </p>
         </div>
         <!-- dark mode -->
@@ -56,7 +57,7 @@
         <form action="#">
           <img src="./images/icon-error.svg" class="absolute right-16 my-4 hidden" alt="" />
           <input type="text"
-            class="inputBox w-full rounded-md border-2 py-4 px-5 text-sm font-bold text-DarkBlue focus:outline-GrayishBlue "
+            class="inputBox dark:text-white dark:bg-[#7e22ce] w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue "
             placeholder="First Name" name="fName" id="fName" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             First Name cannot be empty
@@ -64,7 +65,7 @@
 
           <img src="./images/icon-error.svg" class="absolute right-16 my-8 hidden" alt="" />
           <input type="text"
-            class="inputBox mt-4 w-full rounded-md border-2 py-4 px-5 text-sm font-bold text-DarkBlue focus:outline-GrayishBlue"
+            class="inputBox dark:text-white dark:bg-[#7e22ce] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue"
             placeholder="Last Name" name="lName" id="lName" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             Last Name cannot be empty
@@ -72,7 +73,7 @@
 
           <img src="./images/icon-error.svg" class="absolute right-16 my-8 hidden" alt="" />
           <input type="text"
-            class="inputBox mt-4 w-full rounded-md border-2 py-4 px-5 text-sm font-bold text-DarkBlue focus:outline-GrayishBlue"
+            class="inputBox dark:text-white dark:bg-[#7e22ce] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue"
             placeholder="Email Address" name="email" id="email" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             Looks like this is not a email
@@ -80,7 +81,7 @@
 
           <img src="./images/icon-error.svg" class="absolute right-16 my-8 hidden" alt="" />
           <input type="password"
-            class="inputBox mt-4 w-full rounded-md border-2 py-4 px-5 text-sm font-bold text-DarkBlue focus:outline-GrayishBlue"
+            class="inputBox dark:text-white dark:bg-[#7e22ce] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue"
             placeholder="Password" name="password" id="password" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             Password should contain 1 lowercase letter, 1 capital letter,
@@ -89,11 +90,11 @@
           </p>
 
           <input type="submit"
-            class="myshad mt-4 w-full cursor-pointer rounded-md bg-gradient-to-r from-indigo-500 via-purple-700 to-pink-900 text-lg py-4 font-medium tracking-wider text-white   hover:scale-y-110 duration-100 hover:opacity-75"
+            class="myshad mt-4 w-full cursor-pointer rounded-md bg-gradient-to-r from-indigo-500 via-purple-700 to-pink-900 md:text-2xl text-lg py-4 font-medium tracking-wider text-white hover:scale-y-110 duration-100 hover:opacity-75"
             name="submit" id="submit" value="CLAIM YOUR FREE TRIAL" onclick="return checkInputs()" />
-          <p class="mt-3 px-2 text-center text-xs font-semibold leading-5 text-GrayishBlue md:mt-5">
+          <p class="mt-3 px-2 text-center text-xs font-semibold leading-5 dark:text-white text-GrayishBlue md:mt-5">
             By clicking the button, you are agreeing to our
-            <strong class="cursor-pointer font-semibold text-Red">Terms and Services</strong>
+            <strong class="cursor-pointer font-semibold dark:text-yellow-300 text-Red">Terms and Services</strong>
           </p>
         </form>
       </div>
