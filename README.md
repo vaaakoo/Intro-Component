@@ -27,12 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop]()
-![Mobile]()
+![Desktop](./completedDesigns/desktop-main.png)
+![Mobile](./completedDesigns/mobile-main.png)
+
+### Dark-Mode
+
+![gif](./completedDesigns/Peek%202022-11-26%2002-07.gif)
 
 ### Links
 
 - Solution URL: [Github Repo]()
 - Live Site URL: [Live Demo]()
-
-
