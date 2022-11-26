@@ -36,5 +36,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo]()
+- Solution URL: [Github Repo](https://github.com/vaaakoo/Intro-Component)
 - Live Site URL: [Live Demo]()
