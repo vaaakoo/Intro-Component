@@ -1,5 +1,7 @@
 # Intro-Component
 
+Here is my alternative example, original figma vers was not my style and I Changed it.
+
 # Frontend Mentor - Intro component with sign up form solution
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -10,8 +12,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [DarkMode](#darkmode)
+  - [Gif](#gif)
   - [Links](#links)
- 
 
 ## Overview
 
@@ -27,14 +29,20 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./completedDesigns/desktop-main.png)
-![Mobile](./completedDesigns/mobile-main.png)
+![Desktop](./completedDesigns/desktop.png)
+![Mobile](./completedDesigns/mobile.png)
 
 ### DarkMode
 
-![gif](./completedDesigns/Peek%202022-11-26%2002-07.gif)
+![Darkmode](./completedDesigns/dark-desktop.png)
+
+### Gif
+
+![gif](./completedDesigns/switcher.gif)
 
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/vaaakoo/Intro-Component)
-- Live Site URL: [Live Demo]()
+- Live Site URL: [Live Demo](https://vaaakoo.github.io/Intro-Component/)
+
+## Thanks FrontEnd Mentor for challenges
