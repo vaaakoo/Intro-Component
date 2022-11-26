@@ -14,18 +14,18 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 
-<body class="font-body bg-desktop md:bg-no-repeat md:bg-cover md:bg-desktop md:py-8">
+<body class="font-body bg-[#f1f3f9] md:bg-no-repeat md:bg-cover dark:bg-[#040f13] md:py-8">
 
   <!-- ============ Main Container =================== -->
   <main
-    class="mt-[20px] mb-20 px-6 md:my-0 md:mx-auto md:flex md:max-w-6xl md:items-center md:justify-center md:place-items-center md:gap-x-16">
+    class="md:bg-desktop bg-mobile bg-repeat bg-cover mt-[20px] mb-20 px-6 md:my-0 md:mx-auto md:flex md:max-w-6xl md:items-center md:justify-center md:place-items-center md:gap-x-16">
     <!-- ============ Title Text      ================== -->
     <div class="md:w-1/2 flex flex-col gap-5 mb-8">
       <h1
-        class="text-center text-xl font-semibold leading-9 dark:text-yellow-100 text-white md:text-left md:text-5xl md:leading-none">
+        class="text-center text-2xl font-semibold leading-9 dark:text-[#b165c0] text-[#040f13] md:text-left md:text-5xl md:leading-none">
         Learn to code by watching others
       </h1>
-      <p class="hidden md:block px-2 italic text-center leading-[1.6rem] text-white md:text-left">
+      <p class="hidden md:block px-2 italic text-center text-[#31505c] leading-[1.6rem] dark:text-white md:text-left">
         See how experienced developers solve problems in real-time. Watching scripted tutorials is
         great, but understanding how developers think is invaluable.
       </p>
@@ -34,18 +34,19 @@
     <div class="md:w-1/2 flex flex-col gap-4">
       <!-- ========== Try it Free Card ================== -->
       <div
-        class="shadowDiv rounded-lg bg-[#ffffff] dark:bg-[#7e22ce] px-4 py-3 place-items-center flex flex-row justify-between">
+        class="shadow-lg rounded-lg bg-slate-500 dark:bg-[#0b2d39] p-6 md:py-6 md:px-10 place-items-center flex flex-row justify-between">
         <div>
           <p class="text-center  font-normal leading-7 text-GrayishBlue">
-          <p class="font-semibold text-lg text-blue-600 dark:text-yellow-100"> Try it free 7 days </p>
-          <span class="font-extralight text-base text-gray-400 md:block hidden">then $20/mo. thereafter</span>
+          <p class="font-semibold text-lg text-white dark:text-white"> Try it free 7 days </p>
+          <span class="font-extralight text-base dark:text-gray-600 text-gray-400 md:block hidden">then $20/mo.
+            thereafter</span>
           </p>
         </div>
         <!-- dark mode -->
         <div>
           <label data-toggle="checkbox-toggle">
             <input type="checkbox"
-              class="appearance-none w-9 focus:outline-none checked:bg-blue-300 h-5 bg-gray-300 rounded-full before:inline-block before:rounded-full before:bg-blue-500 before:h-4 before:w-4 checked:before:translate-x-full shadow-inner transition-all duration-300 before:ml-0.5"
+              class="appearance-none w-9 cursor-pointer focus:outline-none checked:bg-[#b165c0] h-5 bg-gray-300 rounded-full before:inline-block before:rounded-full before:bg-white before:h-4 before:w-4 checked:before:translate-x-full shadow-inner transition-all duration-300 before:ml-0.5"
               id="toggle" />
           </label>
 
@@ -54,11 +55,11 @@
       </div>
 
       <!-- ========== Form Card ====================== -->
-      <div class="shadowDiv relative rounded-lg bg-white dark:bg-Blue p-6 transition-all md:p-10">
+      <div class="shadow-lg relative rounded-lg bg-slate-700 dark:bg-[#0b2d39] p-6 transition-all md:p-10">
         <form action="#">
           <img src="./images/icon-error.svg" class="absolute right-16 my-4 hidden" alt="" />
           <input type="text"
-            class="inputBox dark:text-white dark:bg-[#7e22ce] w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue "
+            class="inputBox bg-[#f1f3f9] dark:text-white dark:bg-[#0b2d39] dark:border-[#b165c0] w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-none "
             placeholder="First Name" name="fName" id="fName" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             First Name cannot be empty
@@ -66,7 +67,7 @@
 
           <img src="./images/icon-error.svg" class="absolute right-16 my-8 hidden" alt="" />
           <input type="text"
-            class="inputBox dark:text-white dark:bg-[#7e22ce] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue"
+            class="inputBox bg-[#f1f3f9] dark:text-white dark:bg-[#0b2d39] dark:border-[#b165c0] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-none"
             placeholder="Last Name" name="lName" id="lName" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             Last Name cannot be empty
@@ -74,7 +75,7 @@
 
           <img src="./images/icon-error.svg" class="absolute right-16 my-8 hidden" alt="" />
           <input type="text"
-            class="inputBox dark:text-white dark:bg-[#7e22ce] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue"
+            class="inputBox bg-[#f1f3f9] dark:text-white dark:bg-[#0b2d39] dark:border-[#b165c0] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-none"
             placeholder="Email Address" name="email" id="email" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             Looks like this is not a email
@@ -82,7 +83,7 @@
 
           <img src="./images/icon-error.svg" class="absolute right-16 my-8 hidden" alt="" />
           <input type="password"
-            class="inputBox dark:text-white dark:bg-[#7e22ce] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-GrayishBlue"
+            class="inputBox bg-[#f1f3f9] dark:text-white dark:bg-[#0b2d39] dark:border-[#b165c0] mt-4 w-full rounded-md border-2 py-4 px-5 text-lg font-bold text-DarkBlue focus:outline-none"
             placeholder="Password" name="password" id="password" />
           <p class="mt-2 hidden text-right text-xs font-medium italic text-red-500">
             Password should contain 1 lowercase letter, 1 capital letter,
@@ -90,12 +91,12 @@
             1 number, 1 special character & atleast 12 characters long
           </p>
 
-          <input type="submit"
-            class="myshad mt-4 w-full cursor-pointer rounded-md bg-gradient-to-r from-indigo-500 via-purple-700 to-pink-900 md:text-2xl text-lg py-4 font-medium tracking-wider text-white hover:scale-y-110 duration-100 hover:opacity-75"
-            name="submit" id="submit" value="CLAIM YOUR FREE TRIAL" onclick="return checkInputs()" />
+          <button type="submit"
+            class="mt-4 w-full cursor-pointer rounded-md md:text-2xl text-lg py-4 font-medium tracking-wider text-white bg-[#b165c0] dark:text-gray-400 dark:bg-[#134b5f] hover:dark:text-[#b165c0] hover:opacity-50 hover:-translate-y-1 hover:scale-110 duration-200"
+            name=" submit" id="submit" onclick="return checkInputs()">CLAIM YOUR FREE TRIAL</button>
           <p class="mt-3 px-2 text-center text-xs font-semibold leading-5 dark:text-white text-GrayishBlue md:mt-5">
             By clicking the button, you are agreeing to our
-            <strong class="cursor-pointer font-semibold dark:text-yellow-300 text-Red">Terms and Services</strong>
+            <strong class="cursor-pointer font-semibold text-[#b165c0]">Terms and Services</strong>
           </p>
         </form>
       </div>

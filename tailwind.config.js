@@ -11,7 +11,8 @@ module.exports = {
         GrayishBlue: "hsl(246, 25%, 77%)",
       },
       backgroundImage: {
-        desktop: "url('../images/background.jpg')",
+        desktop: "url('../images/bg-intro-desktop.png')",
+        mobile: "url('../images/bg-intro-mobile.png')",
       },
     },
     fontFamily: {
